@@ -2,3 +2,10 @@ language: java
 jdk: 
  - openjdk8
  - oraclejdk9
+
+notifications:
+  email:
+    recipients:
+      - one@example.com
+    on_success: always # default: change
+    on_failure: never # default: always
